@@ -119,3 +119,11 @@ top: 22px;
   top: 521px;
   border-radius: 9px;
 }
+
+.grey {
+  color: #918E9B;
+}
+
+.strong {
+  font-weight: 700;
+}
