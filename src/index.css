@@ -55,34 +55,32 @@ top: 22px;
 }
 
 .title {
-position: absolute;
-width: 347px;
-height: 40px;
-left: 36px;
-top: 360px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 110%;
-/* identical to box height, or 40px */
-color: #000000;
+  position: absolute;
+  width: 347px;
+  height: 40px;
+  left: 36px;
+  top: 360px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  color: #000000;
+  text-align: left;
 }
 
 .title__description {
   position: absolute;
   width: 320px;
   height: 56px;
-  left: 50px;
+  left: 36px;
   top: 406px;
-
   font-family: Poppins;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 110%;
-  /* or 18px */
-
+  text-align: left;
   color: #222222;
 }
 
@@ -92,25 +90,31 @@ color: #000000;
   height: 235px;
   left: 37px;
   top: 521px;
-
-  /*background: url(image.png);*/
   border-radius: 9px;
+}
+
+.swimmer {
+  position: absolute;
+  width: 176px;
+  height: 58px;
+  left: 36px;
+  top: 765px;
 }
 
 .featuredImgWed {
   position: absolute;
-width: 176px;
-height: 235px;
-left: 425px;
-top: 521px;
-border-radius: 9px;
+  width: 176px;
+  height: 235px;
+  left: 425px;
+  top: 521px;
+  border-radius: 9px;
 }
 
 .featuredImgBike {
   position: absolute;
-width: 176px;
-height: 235px;
-left: 231px;
-top: 521px;
-border-radius: 9px;
+  width: 176px;
+  height: 235px;
+  left: 231px;
+  top: 521px;
+  border-radius: 9px;
 }

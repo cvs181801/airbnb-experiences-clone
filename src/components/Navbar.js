@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './airbnb.png'
+import logo from './airbnb-1.png'
 //import images from './Group_77.png'
 import img100 from './img100.png'
 import img101 from './img101.png'
