@@ -35,7 +35,9 @@ export default function Navbar() {
                     className="thumbnail"
                     style={{
                         left: "157.75px",
-                        top: "103.23px"
+                        top: "103.23px",
+                        width: "73.52px",
+                        height: "63.88px"
                     }}  
                 >
                 </img>

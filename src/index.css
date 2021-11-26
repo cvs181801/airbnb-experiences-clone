@@ -52,7 +52,6 @@ top: 22px;
   height: 97.02px;
   object-fit: cover;
   /*width: 100%;*/
-  border: 1px solid red;
 }
 
 .title {
@@ -87,7 +86,7 @@ color: #000000;
   color: #222222;
 }
 
-.featuredImg {
+.featuredImgSwim {
   position: absolute;
   width: 176px;
   height: 235px;
@@ -96,4 +95,22 @@ color: #000000;
 
   /*background: url(image.png);*/
   border-radius: 9px;
+}
+
+.featuredImgWed {
+  position: absolute;
+width: 176px;
+height: 235px;
+left: 425px;
+top: 521px;
+border-radius: 9px;
+}
+
+.featuredImgBike {
+  position: absolute;
+width: 176px;
+height: 235px;
+left: 231px;
+top: 521px;
+border-radius: 9px;
 }
