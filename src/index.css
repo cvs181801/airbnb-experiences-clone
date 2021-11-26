@@ -38,12 +38,22 @@ top: 22px;
 
 }
 
-.thumbnails {
+/*.thumbnails {
   position: absolute;
   width: 395.91px;
   height: 232px;
   left: 77px;
   top: 96px;
+}*/
+
+.thumbnail {
+  position: absolute;
+  max-height: 40em;
+  left: 157.75px;
+  top: 103.23px;
+  border-radius: 8.95px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .title {
@@ -52,7 +62,6 @@ width: 347px;
 height: 40px;
 left: 36px;
 top: 360px;
-
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
