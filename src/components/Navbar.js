@@ -8,6 +8,8 @@ import img103 from './img103.png'
 import img104 from './img104.png'
 import img105 from './img105.png'
 import img106 from './img106.png'
+import img107 from './img107.png'
+import img108 from './img108.png'
 
 export default function Navbar() {
     return (
@@ -72,7 +74,33 @@ export default function Navbar() {
                 <img
                     src={img106}
                     alt="person swimming"
+                    className="thumbnail"
+                    style={{
+                        left: "319.85px",
+                        top: "201.45px"
+                    }}  
+                >
+                </img>
+
+                <img
+                    src={img107}
+                    alt="person meditating"
+                    className="thumbnail"
+                    style={{
+                        left: "400.59px",
+                        top: "114.08px"
+                    }} 
+                >
+                </img>
+
+                <img
+                    src={img108}
+                    alt="person singing"
                     className="thumbnail" 
+                    style={{
+                        left: "400.59px",
+                        top: "218.93px"
+                    }}
                 >
                 </img>
 
