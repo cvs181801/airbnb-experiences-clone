@@ -2,11 +2,13 @@ import React from 'react'
 import featuredSwim from './image_12.png'
 import featuredWedding from './wedding-photography 1.png'
 import featuredBike from './mountain-bike 1.png'
-import swimmer from './Group-65.png'
+import star from './star.png'
 
 export default function Featured() {
     return (
-        <div>
+        <div
+            className="featured"
+        >
             <img
                 src={featuredSwim}
                 alt="featured Air BnB Experiences Swim"
@@ -15,11 +17,17 @@ export default function Featured() {
             </img>
 
             <img
-                src={swimmer}
-                alt="featured Air BnB Experiences Swim"
-                className="swimmer"
+                src={star}
+                alt="star"
+                className="star"
             >
             </img>
+
+            <span>5.0</span>
+            <span>(6) • </span>
+            <span>USA</span>
+            <p>Life Lessons with Katie Zaferes</p>
+            <p>From $136 / person</p>
 
             {/* <img
                 src={featuredWedding}
