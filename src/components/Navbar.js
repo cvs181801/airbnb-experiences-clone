@@ -33,12 +33,20 @@ export default function Navbar() {
                     src={img100}
                     alt="woman baking"
                     className="thumbnail"
+                    style={{
+                        left: "157.75px",
+                        top: "103.23px"
+                    }}  
                 >
                 </img>
                 <img
                     src={img101}
                     alt="person cooking"
                     className="thumbnail" 
+                    style={{
+                        left: "77px",
+                        top: "144.81px"
+                    }}  
                 >
                 </img>
 
@@ -46,6 +54,10 @@ export default function Navbar() {
                     src={img102}
                     alt="ballet dancer"
                     className="thumbnail" 
+                    style={{
+                        left: "157.75px",
+                        top: "175.54px"
+                    }}  
                 >
                 </img>
 
@@ -53,6 +65,10 @@ export default function Navbar() {
                     src={img103}
                     alt="fresh food"
                     className="thumbnail" 
+                    style={{
+                        left: "238.5px",
+                        top: "126.13px"
+                    }}  
                 >
                 </img>
 
@@ -60,6 +76,10 @@ export default function Navbar() {
                     src={img104}
                     alt="person playing guitar"
                     className="thumbnail" 
+                    style={{
+                        left: "238.5px",
+                        top: "231.58px"
+                    }}  
                 >
                 </img>
 
@@ -68,6 +88,10 @@ export default function Navbar() {
                     src={img105}
                     alt="person playing piano with a mic"
                     className="thumbnail" 
+                    style={{
+                        left: "319.85px",
+                        top: "96px"
+                    }}  
                 >
                 </img>
 
