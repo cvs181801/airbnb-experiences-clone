@@ -22,7 +22,6 @@ function App() {
           <Featured
               src={featuredSwim}
               alt="featured Air BnB Experiences Swim"
-              className="featuredSwim"
               rating="5.0"
               numOfRatings="(6)"
               country="USA"
@@ -32,7 +31,6 @@ function App() {
           <Featured
               src={featuredWedding}
               alt="featured Air BnB Experiences Wedding"
-              className="featuredWed"
               rating="5.0"
               numOfRatings="(30)"
               country="USA"
@@ -42,7 +40,6 @@ function App() {
           <Featured
               src={featuredBike}
               alt="featured Air BnB Experiences Bike"
-              className="featuredBike"
               rating="4.8"
               numOfRatings="(2)"
               country="USA"
@@ -52,17 +49,15 @@ function App() {
           <Featured
               src={featuredYoga}
               alt="featured Air BnB Experiences Yoga"
-              className="featuredYoga"
               rating="4.9"
               numOfRatings="(22)"
-              country="Austrailia"
+              country="Australia"
               summary="Yoga with Sari"
               startingPrice="From $12"
           />
           <Featured
               src={featuredVenice}
               alt="featured Air BnB Experiences Venice"
-              className="featuredVenice"
               rating="5"
               numOfRatings="(249)"
               country="Italy"
@@ -72,7 +67,6 @@ function App() {
           <Featured
               src={featuredEiffel}
               alt="featured Air BnB Experiences Eiffel Tower"
-              className="featuredEiffel"
               rating="3.5"
               numOfRatings="(81)"
               country="France"

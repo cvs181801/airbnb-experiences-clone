@@ -5,7 +5,7 @@ export default function Featured(props) {
     console.log(props)
     return (
         <div
-            className={props.className}
+        className="featuredCard"
         >
             <img
                 src={props.src}
@@ -21,9 +21,9 @@ export default function Featured(props) {
             >
             </img>
 
-            <span className="grey">{props.rating}</span>
-            <span className="grey">{props.numOfRatings} • </span>
-            <span className="grey">{props.country}</span>
+            <p className="grey">{props.rating}</p>
+            <p className="grey">{props.numOfRatings} • </p>
+            <p><span className="grey">{props.country}</span></p>
             <p>{props.summary}</p>
             <p><span className="strong">{props.startingPrice}</span> / person</p>
         </div>
