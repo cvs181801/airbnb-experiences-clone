@@ -85,26 +85,45 @@ top: 22px;
 }
 
 .featuredContainer {
-  position: block;
+  position: absolute;
+  left: 37px;
+  top: 521px;
   margin: 0 auto;
   display: grid;
-  grid-template: repeat(2, 1fr);
+  grid-template-columns: 15em minmax(15em, 20em) 15em minmax(15em, 20em) 15em minmax(15em, 20em);
   grid-auto-flow: dense;
-  gap: .5em;
+  grid-gap: .5em;
 }
 
-.featured {
+.featuredSwim {
   width: 176px;
   height: 235px;
   border-radius: 9px;
   text-align: left;
-  border: 1px solid red;
+  grid-column: 1/1;
+}
+
+.featuredWed {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+  text-align: left;
+  grid-column: 2/2;
+}
+
+.featuredBike {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+  text-align: left;
+  grid-column: 3/3;
 }
 
 .featuredImg {
   object-fit: cover;
   width: 100%;
-  max-height: 850px;
+  max-height: 235px;
+  border-radius: 9px;
 }
 
 

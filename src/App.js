@@ -19,6 +19,7 @@ function App() {
           <Featured
               src={featuredSwim}
               alt="featured Air BnB Experiences Swim"
+              className="featuredSwim"
               rating="5.0"
               numOfRatings="(6)"
               country="USA"
@@ -28,6 +29,7 @@ function App() {
           <Featured
               src={featuredWedding}
               alt="featured Air BnB Experiences Wedding"
+              className="featuredWed"
               rating="5.0"
               numOfRatings="(30)"
               country="USA"
@@ -37,6 +39,7 @@ function App() {
           <Featured
               src={featuredBike}
               alt="featured Air BnB Experiences Bike"
+              className="featuredBike"
               rating="4.8"
               numOfRatings="(2)"
               country="USA"

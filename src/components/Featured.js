@@ -5,12 +5,12 @@ export default function Featured(props) {
     console.log(props)
     return (
         <div
-            className="featured"
+            className={props.className}
         >
             <img
                 src={props.src}
                 alt={props.alt}
-                className="featured"
+                className="featuredImg"
             >
             </img>
 
