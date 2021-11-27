@@ -21,9 +21,7 @@ export default function Featured(props) {
             >
             </img>
 
-            <p className="grey">{props.rating}</p>
-            <p className="grey">{props.numOfRatings} • </p>
-            <p><span className="grey">{props.country}</span></p>
+            <p className="grey">{props.rating} {props.numOfRatings} • {props.country}</p>
             <p>{props.summary}</p>
             <p><span className="strong">{props.startingPrice}</span> / person</p>
         </div>

@@ -90,9 +90,10 @@ top: 22px;
   top: 521px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 15em 15em 15em;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: .5em;
+
+  grid-template-columns: 15em 15em;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: .3em;
 }
 
 .featuredCard {
@@ -116,4 +117,13 @@ top: 22px;
 
 .strong {
   font-weight: 700;
+}
+
+@media(min-width: 800px) {
+  .featuredContainer {
+    grid-template-columns: 15em 15em 15em;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: .5em;
+  }
+
 }
