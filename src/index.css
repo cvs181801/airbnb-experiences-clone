@@ -31,27 +31,23 @@ code {
 
 .logo {
   position: absolute;
-width: 82.02px;
-height: 25.35px;
-left: 30px;
-top: 22px;
-
+  width: 82.02px;
+  height: 25.35px;
+  left: 30px;
+  top: 22px;
 }
-
-/*.thumbnails {
-  position: absolute;
-  width: 395.91px;
-  height: 232px;
-  left: 77px;
-  top: 96px;
-}*/
 
 .thumbnail {
   position: absolute;
   width: 72.31px;
   height: 97.02px;
   object-fit: cover;
-  /*width: 100%;*/
+  transition: transform 250ms;
+}
+
+.thumbnail:hover,
+.thumbnail:focus {
+  transform: scale(1.1);
 }
 
 .title {
@@ -90,10 +86,9 @@ top: 22px;
   top: 521px;
   margin: 0 auto;
   display: grid;
-
   grid-template-columns: 15em 15em;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: .3em;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: .3em;
 }
 
 .featuredCard {
@@ -120,10 +115,20 @@ top: 22px;
 }
 
 @media(min-width: 800px) {
+
+  .header {
+    width: 100vw;
+
+  }
+
   .featuredContainer {
     grid-template-columns: 15em 15em 15em;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: .5em;
   }
 
+  .thumbnail {
+    width: 5em;
+    height: 7em;
+  }
 }

@@ -23,11 +23,6 @@ export default function Navbar() {
                     className="logo"
                     ></img>
             </header>        
-                {/* <img 
-                    src={images} 
-                    alt="experiences thumbnails"
-                    className="thumbnails"
-                ></img> */}
             <nav>
                 <img
                     src={img100}
@@ -129,9 +124,6 @@ export default function Navbar() {
                     }}
                 >
                 </img>
-
-
-
             </nav>
                 
                 
