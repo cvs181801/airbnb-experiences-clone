@@ -1,18 +1,16 @@
 import React from 'react'
-import featuredSwim from './image_12.png'
-import featuredWedding from './wedding-photography 1.png'
-import featuredBike from './mountain-bike 1.png'
 import star from './star.png'
 
-export default function Featured() {
+export default function Featured(props) {
+    console.log(props)
     return (
         <div
             className="featured"
         >
             <img
-                src={featuredSwim}
-                alt="featured Air BnB Experiences Swim"
-                className="featuredImgSwim"
+                src={props.src}
+                alt={props.alt}
+                className="featured"
             >
             </img>
 
@@ -23,25 +21,11 @@ export default function Featured() {
             >
             </img>
 
-            <span className="grey">5.0</span>
-            <span className="grey">(6) • </span>
-            <span className="grey">USA</span>
-            <p>Life Lessons with Katie Zaferes</p>
-            <p><span className="strong">From $136</span> / person</p>
-
-            {/* <img
-                src={featuredWedding}
-                alt="featured Air BnB Experiences Wedding"
-                className="featuredImgWed"
-            >
-            </img>
-
-            <img
-                src={featuredBike}
-                alt="featured Air BnB Experiences Bike"
-                className="featuredImgBike"
-            >
-            </img> */}
+            <span className="grey">{props.rating}</span>
+            <span className="grey">{props.numOfRatings} • </span>
+            <span className="grey">{props.country}</span>
+            <p>{props.summary}</p>
+            <p><span className="strong">{props.startingPrice}</span> / person</p>
         </div>
     )
 }
