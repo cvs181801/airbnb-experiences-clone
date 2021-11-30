@@ -93,7 +93,7 @@ code {
   height: 235px;
   border-radius: 9px;
   text-align: left;
-  margin-bottom: 10em;
+  margin-bottom: 11em;
 }
 
 .featuredImg {
@@ -112,15 +112,23 @@ code {
 }
 
 @media(min-width: 800px) {
+  .App {
+    align-items: center;
+    justify-content: center;
+  }
 
   .header {
     width: 100vw;
   }
 
   .featuredContainer {
-    grid-template-columns: 15em 15em 15em;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: .5em;
+    grid-template-columns: 15em 15em 15em 15em 15em;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: .7em;
+  }
+
+  .featuredCard {
+    margin-bottom: 12em;
   }
 
   .thumbnail {
