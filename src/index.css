@@ -113,6 +113,8 @@ code {
 
 @media(min-width: 800px) {
   .App {
+    position: inline-block;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
   }
@@ -122,7 +124,8 @@ code {
   }
 
   .featuredContainer {
-    grid-template-columns: 15em 15em 15em 15em 15em;
+    position: inline-block;
+    grid-template-columns: 18em 18em 18em 18em 18em;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: .7em;
   }
