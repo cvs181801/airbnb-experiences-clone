@@ -195,7 +195,7 @@ const cardsData = [
         rating: "5",
         numOfRatings: "(31)",
         country: "Spain",
-        summary: "Learn to cook traditional Spanish dishes with Rachel",
+        summary: "Learn to cook traditional Spanish dishes with Raphael",
         startingPrice: "From $18"
     }
 ]
