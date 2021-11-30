@@ -8,12 +8,13 @@ import featuredYoga from './components/yoga.jpeg'
 import featuredVenice from './components/venice.jpeg'
 import featuredEiffel from './components/eiffeltower.jpeg'
 
-const nums = [1, 2, 3, 4, 5];
-const newNums = nums.map(num => {
-  return Math.ceil(Math.sqrt(num));
+const names = ["alice", "bob", "charlie", "danielle"];
+const newNames = names.map(name => {
+  return name.charAt(0).toUpperCase() + name.substring(1);
 })
 
-console.log(newNums);
+console.log(newNames);
+
 
 function App() {
   return (
