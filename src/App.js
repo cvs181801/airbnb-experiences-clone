@@ -9,14 +9,9 @@ import featuredVenice from './components/venice.jpeg'
 import featuredEiffel from './components/eiffeltower.jpeg'
 import cardsData from './components/cardsData'
 
-const colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]
-const colorsJsx = colors.map(color => {
-  return `<p>${color}</p>`
-})
-console.log(colorsJsx)
 
 const featuredCards = cardsData.map(card => {
-  return <Featured key={card.id}  alt={card.alt} rating={card.rating} numOfRatings={card.numOfRatings} 
+  return <Featured key={card.id} src={card.src} alt={card.alt} rating={card.rating} numOfRatings={card.numOfRatings} 
   country={card.country} summary ={card.summary} startingPrice={card.startingPrice}/>
 })
 
@@ -36,7 +31,9 @@ function App() {
         className="title__description"
       >Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
         <div className="featuredContainer">
-          <Featured
+
+          {featuredCards}
+          {/* <Featured
               src={featuredSwim}
               alt="featured Air BnB Experiences Swim"
               rating="5.0"
@@ -89,7 +86,7 @@ function App() {
               country="France"
               summary="La Tour Eiffel holiday lights tour"
               startingPrice="From $20"
-          />
+          /> */}
       </div>
     </div>
     

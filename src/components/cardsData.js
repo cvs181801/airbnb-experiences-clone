@@ -1,9 +1,9 @@
-import featuredSwim from './components/image_12.png'
-import featuredWedding from './components/wedding-photography 1.png'
-import featuredBike from './components/mountain-bike 1.png'
-import featuredYoga from './components/yoga.jpeg'
-import featuredVenice from './components/venice.jpeg'
-import featuredEiffel from './components/eiffeltower.jpeg'
+import featuredSwim from './image_12.png'
+import featuredWedding from './wedding-photography 1.png'
+import featuredBike from './mountain-bike 1.png'
+import featuredYoga from './yoga.jpeg'
+import featuredVenice from './venice.jpeg'
+import featuredEiffel from './eiffeltower.jpeg'
 
 const cardsData = [
     {
@@ -28,7 +28,7 @@ const cardsData = [
     },
     {
         id: "C",
-        src: {featuredBike},
+        src: featuredBike,
         alt: "featured Air BnB Experiences Bike",
         rating: "4.8",
         numOfRatings: "(2)",
@@ -38,7 +38,7 @@ const cardsData = [
     },
     {
         id: "D",
-        src: {featuredYoga},
+        src: featuredYoga,
         alt: "featured Air BnB Experiences Yoga",
         rating: "4.9",
         numOfRatings: "(22)",
@@ -48,7 +48,7 @@ const cardsData = [
     },
     {
         id: "E",
-        src: {featuredVenice},
+        src: featuredVenice,
         alt: "featured Air BnB Experiences Venice",
         rating: "5",
         numOfRatings: "(249)",
@@ -58,7 +58,7 @@ const cardsData = [
     },
     {
         id: "F",
-        src: {featuredEiffel},
+        src: featuredEiffel,
         alt: "featured Air BnB Experiences Eiffel Tower",
         rating: "3.5",
         numOfRatings: "(81)",
