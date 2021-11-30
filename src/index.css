@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,16 +8,13 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Poppins', /*'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Poppins' /*'Courier New'*/,
-    monospace;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -56,13 +55,11 @@ code {
   height: 40px;
   left: 36px;
   top: 360px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
   font-size: 36px;
   line-height: 110%;
   color: #000000;
   text-align: left;
+  font-family: 'Poppins', sans-serif;
 }
 
 .title__description {
@@ -71,13 +68,13 @@ code {
   height: 56px;
   left: 36px;
   top: 406px;
-  font-family: Poppins;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 110%;
   text-align: left;
   color: #222222;
+  font-family: 'Poppins', sans-serif;
 }
 
 .featuredContainer {
@@ -118,7 +115,6 @@ code {
 
   .header {
     width: 100vw;
-
   }
 
   .featuredContainer {
