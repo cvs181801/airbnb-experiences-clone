@@ -8,24 +8,25 @@ import featuredYoga from './components/yoga.jpeg'
 import featuredVenice from './components/venice.jpeg'
 import featuredEiffel from './components/eiffeltower.jpeg'
 
-const names = ["alice", "bob", "charlie", "danielle"];
-const newNames = names.map(name => {
-  return name.charAt(0).toUpperCase() + name.substring(1);
+const colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]
+const colorsJsx = colors.map(color => {
+  return `<p>${color}</p>`
 })
-
-console.log(newNames);
-
+console.log(colorsJsx)
 
 function App() {
   return (
     <div className="App">
+      
       <Navbar/>
       <div
         className="title"
       >Online Experiences</div>
+
+     
       <p
         className="title__description"
-      >Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
+      >Join unique interactive activities led by one-of-a-kind hosts—all without leaving home. {colorsJsx}</p>
         <div className="featuredContainer">
           <Featured
               src={featuredSwim}
