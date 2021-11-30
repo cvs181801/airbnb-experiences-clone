@@ -1,6 +1,14 @@
-const cardsSData = [
+import featuredSwim from './components/image_12.png'
+import featuredWedding from './components/wedding-photography 1.png'
+import featuredBike from './components/mountain-bike 1.png'
+import featuredYoga from './components/yoga.jpeg'
+import featuredVenice from './components/venice.jpeg'
+import featuredEiffel from './components/eiffeltower.jpeg'
+
+const cardsData = [
     {
-        src: {featuredSwim},
+        id: "A",
+        src: featuredSwim,
         alt: "featured Air BnB Experiences Swim",
         rating: "5.0",
         numOfRatings: "(6)",
@@ -9,7 +17,8 @@ const cardsSData = [
         startingPrice: "From $136"
     },
     {
-        src: {featuredWedding},
+        id: "B",
+        src: featuredWedding,
         alt: "featured Air BnB Experiences Wedding",
         rating: "5.0",
         numOfRatings: "(30)",
@@ -18,6 +27,7 @@ const cardsSData = [
         startingPrice: "From $125"
     },
     {
+        id: "C",
         src: {featuredBike},
         alt: "featured Air BnB Experiences Bike",
         rating: "4.8",
@@ -27,6 +37,7 @@ const cardsSData = [
         startingPrice: "From $50"
     },
     {
+        id: "D",
         src: {featuredYoga},
         alt: "featured Air BnB Experiences Yoga",
         rating: "4.9",
@@ -36,6 +47,7 @@ const cardsSData = [
         startingPrice: "From $12"
     },
     {
+        id: "E",
         src: {featuredVenice},
         alt: "featured Air BnB Experiences Venice",
         rating: "5",
@@ -45,6 +57,7 @@ const cardsSData = [
         startingPrice: "From $17"
     },
     {
+        id: "F",
         src: {featuredEiffel},
         alt: "featured Air BnB Experiences Eiffel Tower",
         rating: "3.5",
@@ -54,3 +67,5 @@ const cardsSData = [
         startingPrice: "From $20"
     }
 ]
+
+export default cardsData

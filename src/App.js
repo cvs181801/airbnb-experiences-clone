@@ -7,12 +7,20 @@ import featuredBike from './components/mountain-bike 1.png'
 import featuredYoga from './components/yoga.jpeg'
 import featuredVenice from './components/venice.jpeg'
 import featuredEiffel from './components/eiffeltower.jpeg'
+import cardsData from './components/cardsData'
 
 const colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]
 const colorsJsx = colors.map(color => {
   return `<p>${color}</p>`
 })
 console.log(colorsJsx)
+
+const featuredCards = cardsData.map(card => {
+  return <Featured key={card.id}  alt={card.alt} rating={card.rating} numOfRatings={card.numOfRatings} 
+  country={card.country} summary ={card.summary} startingPrice={card.startingPrice}/>
+})
+
+console.log(featuredCards)
 
 function App() {
   return (
@@ -26,7 +34,7 @@ function App() {
      
       <p
         className="title__description"
-      >Join unique interactive activities led by one-of-a-kind hosts—all without leaving home. {colorsJsx}</p>
+      >Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
         <div className="featuredContainer">
           <Featured
               src={featuredSwim}
