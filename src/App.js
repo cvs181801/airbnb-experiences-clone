@@ -8,6 +8,13 @@ import featuredYoga from './components/yoga.jpeg'
 import featuredVenice from './components/venice.jpeg'
 import featuredEiffel from './components/eiffeltower.jpeg'
 
+const nums = [1, 2, 3, 4, 5];
+const newNums = nums.map(num => {
+  return Math.ceil(Math.sqrt(num));
+})
+
+console.log(newNums);
+
 function App() {
   return (
     <div className="App">
