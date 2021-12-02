@@ -37,7 +37,7 @@ code {
 
 nav {
   overflow-y: scroll;
-  max-height: 16em;
+  max-height: 25em;
   display: flex;
 }
 
@@ -50,12 +50,13 @@ nav {
 }
 
 .thumbnail {
+  padding: .5em;
   /* position: absolute; 
   width: 72.31px;
   height: 97.02px; */
-
-  height: 10em;
-  width: 15em;
+  font-size: .6rem;
+  height: 20em;
+  width: 30em;
   margin: 0 .5em 0 .5em;
   border-radius: 13px;
   text-align: left;
@@ -64,6 +65,7 @@ nav {
 
 .nav__text {
   padding-bottom: 3em;
+  font-size: 1.2rem;
   color: white;
 }
 
@@ -166,12 +168,11 @@ nav {
   }
 
   .featuredCard {
- 
     width: 15em;
   }
 
    .thumbnail {
-    width: 35em;
-    height: 15em;
+    width: 40em;
+    height: 30em;
   } 
 }

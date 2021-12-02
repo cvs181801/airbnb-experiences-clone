@@ -16,6 +16,8 @@ import featuredTajmahal from './tajmahal.jpeg'
 import featuredTropical from './tropical.jpeg'
 import featuredWindchime from './windchime.jpeg'
 import featuredSpain from './spain.jpeg'
+import wed from './wed.jpeg'
+import biking from './biking.jpeg'
 
 const cardsData = [
     {
@@ -30,7 +32,7 @@ const cardsData = [
     },
     {
         id: "B",
-        src: featuredWedding,
+        src: wed,
         alt: "featured Air BnB Experiences Wedding",
         rating: "5.0",
         numOfRatings: "(30)",
@@ -40,12 +42,12 @@ const cardsData = [
     },
     {
         id: "C",
-        src: featuredBike,
+        src: biking,
         alt: "featured Air BnB Experiences Bike",
         rating: "4.8",
         numOfRatings: "(2)",
         country: "USA",
-        summary: "Group mountain biking",
+        summary: "Mountain biking 101",
         startingPrice: "From $50"
     },
     {
