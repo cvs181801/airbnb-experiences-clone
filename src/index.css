@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+:root {
+  --grey: #918E9B;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -49,13 +53,19 @@ nav {
   /* position: absolute; 
   width: 72.31px;
   height: 97.02px; */
+
   height: 10em;
   width: 15em;
-  object-fit: cover;
-  object-position: 50% 50%;
   margin: 0 .5em 0 .5em;
+  border: 2px solid hotpink;
+  border-radius: 13px;
+  text-align: left;
   /*transition: transform 250ms;*/
+}
 
+.nav__text {
+  padding-bottom: 3em;
+  color: white;
 }
 
 /* .thumbnail:hover,
@@ -128,7 +138,7 @@ nav {
 }
 
 .grey {
-  color: #918E9B;
+  color: var(--grey);
 }
 
 .strong {
@@ -162,7 +172,7 @@ nav {
   }
 
    .thumbnail {
-    width: 20em;
+    width: 35em;
     height: 15em;
   } 
 }
