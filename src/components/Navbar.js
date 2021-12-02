@@ -24,25 +24,25 @@ export default function Navbar() {
                     ></img>
             </header>        
             <nav>
-                <img
-                    src={img100}
+                <div
+                    background={img100}
                     alt="woman baking"
                     className="thumbnail"
                     style={{
-                        left: "157.75px",
-                        top: "103.23px",
-                        width: "73.52px",
-                        height: "63.88px"
+                        //left: "157.75px",
+                        //top: "103.23px",
+                        // width: "73.52px",
+                        // height: "63.88px"
                     }}  
                 >
-                </img>
+                </div>
                 <img
                     src={img101}
                     alt="person cooking"
                     className="thumbnail" 
                     style={{
-                        left: "77px",
-                        top: "144.81px"
+                        //left: "77px",
+                        //top: "144.81px"
                     }}  
                 >
                 </img>
@@ -52,8 +52,8 @@ export default function Navbar() {
                     alt="ballet dancer"
                     className="thumbnail" 
                     style={{
-                        left: "157.75px",
-                        top: "175.54px"
+                        //left: "157.75px",
+                        //top: "175.54px"
                     }}  
                 >
                 </img>
@@ -63,8 +63,8 @@ export default function Navbar() {
                     alt="fresh food"
                     className="thumbnail" 
                     style={{
-                        left: "238.5px",
-                        top: "126.13px"
+                        //left: "238.5px",
+                        //top: "126.13px"
                     }}  
                 >
                 </img>
@@ -74,8 +74,8 @@ export default function Navbar() {
                     alt="person playing guitar"
                     className="thumbnail" 
                     style={{
-                        left: "238.5px",
-                        top: "231.58px"
+                        //left: "238.5px",
+                        //top: "231.58px"
                     }}  
                 >
                 </img>
@@ -86,8 +86,8 @@ export default function Navbar() {
                     alt="person playing piano with a mic"
                     className="thumbnail" 
                     style={{
-                        left: "319.85px",
-                        top: "96px"
+                        //left: "319.85px",
+                        //top: "96px"
                     }}  
                 >
                 </img>
@@ -97,8 +97,8 @@ export default function Navbar() {
                     alt="person swimming"
                     className="thumbnail"
                     style={{
-                        left: "319.85px",
-                        top: "201.45px"
+                        //left: "319.85px",
+                        //top: "201.45px"
                     }}  
                 >
                 </img>
@@ -108,8 +108,8 @@ export default function Navbar() {
                     alt="person meditating"
                     className="thumbnail"
                     style={{
-                        left: "400.59px",
-                        top: "114.08px"
+                        //left: "400.59px",
+                        //top: "114.08px"
                     }} 
                 >
                 </img>
@@ -119,8 +119,8 @@ export default function Navbar() {
                     alt="person singing"
                     className="thumbnail" 
                     style={{
-                        left: "400.59px",
-                        top: "218.93px"
+                        //left: "400.59px",
+                        //top: "218.93px"
                     }}
                 >
                 </img>

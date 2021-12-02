@@ -31,6 +31,12 @@ code {
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
+nav {
+  overflow-y: scroll;
+  max-height: 16em;
+  display: flex;
+}
+
 .logo {
   position: absolute;
   width: 82.02px;
@@ -40,17 +46,22 @@ code {
 }
 
 .thumbnail {
-  /* position: absolute; */
+  /* position: absolute; 
   width: 72.31px;
-  height: 97.02px;
+  height: 97.02px; */
+  height: 10em;
+  width: 15em;
   object-fit: cover;
-  transition: transform 250ms;
+  object-position: 50% 50%;
+  margin: 0 .5em 0 .5em;
+  /*transition: transform 250ms;*/
+
 }
 
-.thumbnail:hover,
+/* .thumbnail:hover,
 .thumbnail:focus {
   transform: scale(1.1);
-}
+} */
 
 .title {
   margin: 1em auto 1em auto;
@@ -150,8 +161,8 @@ code {
     width: 15em;
   }
 
-  .thumbnail {
-    width: 5em;
-    height: 7em;
-  }
+   .thumbnail {
+    width: 20em;
+    height: 15em;
+  } 
 }
