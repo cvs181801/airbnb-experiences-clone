@@ -10,7 +10,12 @@ import img105 from './img105.png'
 import img106 from './img106.png'
 import img107 from './img107.png'
 import img108 from './img108.png'
+import andes from './andes.jpeg'
 import bake from './bake.jpeg'
+import bridge from './bridge.jpeg'
+import hold from './hold.jpeg'
+import phillipines from './phillipines.jpeg'
+import toast from './toast.jpeg'
 
 export default function Navbar() {
     return (
@@ -39,7 +44,7 @@ export default function Navbar() {
                         color: 'white'
                     }}  
                 > Collection
-                <p className="nav__text">Learn a new skill fdakjhdkadjfhdkeuafhjkdsachjsdfkadjhfkajfhsdk</p>
+                <p className="nav__text">Learn a new skill</p>
                 </div>
 
                 <div
@@ -48,13 +53,13 @@ export default function Navbar() {
                         //left: "77px",
                         //top: "144.81px"
                         backgroundColor: "#918E9B",
-                        backgroundImage: `url(${img101})`,
+                        backgroundImage: `url(${andes})`,
                         backgroundSize: "cover",
                         backgroundBlendMode: 'multiply',
                         color: 'white'
                     }}  
                 >Collection
-                <p className="nav__text">Learn a new skill fdakjhdkadjfhdkeuafhjkdsachjsdfkadjhfkajfhsdk</p>
+                <p className="nav__text">Plan your next trip</p>
                 </div>
 
                 <div
@@ -63,13 +68,13 @@ export default function Navbar() {
                         //left: "157.75px",
                         //top: "175.54px"
                         backgroundColor: "#918E9B",
-                        backgroundImage: `url(${img102})`,
+                        backgroundImage: `url(${toast})`,
                         backgroundSize: "cover",
                         backgroundBlendMode: 'multiply',
                         color: 'white'
                     }}  
                 >Collection
-                <p className="nav__text">Learn a new skill fdakjhdkadjfhdkeuafhjkdsachjsdfkadjhfkajfhsdk</p>
+                <p className="nav__text">Spend time together</p>
                 </div>
 
                 <div
@@ -79,14 +84,14 @@ export default function Navbar() {
                         //left: "238.5px",
                         //top: "126.13px"
                         backgroundColor: "#918E9B",
-                        backgroundImage: `url(${img103})`,
+                        backgroundImage: `url(${phillipines})`,
                         backgroundSize: "cover",
                         backgroundBlendMode: 'multiply',
                         color: 'white'
                         
                     }}  
                 >Collection
-                <p className="nav__text">Learn a new skill fdakjhdkadjfhdkeuafhjkdsachjsdfkadjhfkajfhsdk</p>
+                <p className="nav__text">Discover something exciting</p>
                 </div>
 
                 <div
@@ -95,13 +100,13 @@ export default function Navbar() {
                         //left: "238.5px",
                         //top: "231.58px"
                         backgroundColor: "#918E9B",
-                        backgroundImage: `url(${img104})`,
+                        backgroundImage: `url(${hold})`,
                         backgroundSize: "cover",
                         backgroundBlendMode: 'multiply',
                         color: 'white'
                     }}  
                 >Collection
-                <p className="nav__text">Learn a new skill fdakjhdkadjfhdkeuafhjkdsachjsdfkadjhfkajfhsdk</p>
+                <p className="nav__text">Make someone's wish come true</p>
                 </div>
 
 
@@ -111,61 +116,15 @@ export default function Navbar() {
                         //left: "319.85px",
                         //top: "96px"
                         backgroundColor: "#918E9B",
-                        backgroundImage: `url(${img105})`,
+                        backgroundImage: `url(${bridge})`,
                         backgroundSize: "cover",
                         backgroundBlendMode: 'multiply',
                         color: 'white'
                     }}  
                 >Collection
-                <p className="nav__text">Learn a new skill fdakjhdkadjfhdkeuafhjkdsachjsdfkadjhfkajfhsdk</p>
+                <p className="nav__text">Get out of your comfort zone</p>
                 </div>
 
-                <div
-                    className="thumbnail"
-                    style={{
-                        //left: "319.85px",
-                        //top: "201.45px"
-                        backgroundColor: "#918E9B",
-                        backgroundImage: `url(${img106})`,
-                        backgroundSize: "cover",
-                        backgroundBlendMode: 'multiply',
-                        color: 'white'
-                    }}  
-                >Collection
-                <p className="nav__text">Learn a new skill fdakjhdkadjfhdkeuafhjkdsachjsdfkadjhfkajfhsdk</p>
-                </div>
-
-                <div
-
-                    className="thumbnail"
-                    style={{
-                        //left: "400.59px",
-                        //top: "114.08px"
-                        backgroundColor: "#918E9B",
-                        backgroundImage: `url(${img107})`,
-                        backgroundSize: "cover",
-                        backgroundBlendMode: 'multiply',
-                        color: 'white'
-                    }} 
-                >Collection
-                <p className="nav__text">Learn a new skill fdakjhdkadjfhdkeuafhjkdsachjsdfkadjhfkajfhsdk</p>
-                </div>
-
-                <div
-                    className="thumbnail" 
-                    style={{
-                        //left: "400.59px",
-                        //top: "218.93px"
-                        backgroundColor: "#918E9B",
-                        backgroundImage: `url(${img108})`,
-                        backgroundSize: "cover",
-                        backgroundBlendMode: 'multiply',
-                        color: 'white'
-
-                    }}
-                >Collection
-                <p className="nav__text">Learn a new skill fdakjhdkadjfhdkeuafhjkdsachjsdfkadjhfkajfhsdk</p>
-                </div>
             </nav>
                 
                 
