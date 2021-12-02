@@ -2,6 +2,7 @@
 
 :root {
   --grey: #918E9B;
+  --light-grey: #cfced1;
 }
 
 * {
@@ -37,8 +38,13 @@ code {
 
 nav {
   overflow-y: scroll;
-  max-height: 25em;
+  overflow-x: scroll;
+  height: 30em;
   display: flex;
+  padding: 9em auto 5em auto;
+  background-color: var(--light-grey);
+  justify-content: left;
+  align-items: center;
 }
 
 .logo {
@@ -50,13 +56,13 @@ nav {
 }
 
 .thumbnail {
-  padding: .5em;
+  padding: 2em 35em 10em 7em;
   /* position: absolute; 
   width: 72.31px;
   height: 97.02px; */
   font-size: .6rem;
-  height: 20em;
-  width: 30em;
+  height: 30em;
+  width: 40em;
   margin: 0 .5em 0 .5em;
   border-radius: 13px;
   text-align: left;
@@ -64,8 +70,8 @@ nav {
 }
 
 .nav__text {
-  padding-bottom: 3em;
   font-size: 1.2rem;
+  width: 15rem;
   color: white;
 }
 
@@ -156,6 +162,10 @@ nav {
 
   .header {
     width: 100vw;
+  }
+
+  nav {
+    background-color: white;
   }
 
   .featuredContainer {
