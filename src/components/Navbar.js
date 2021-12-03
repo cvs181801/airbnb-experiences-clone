@@ -71,6 +71,7 @@ export default function Navbar() {
                         backgroundImage: `url(${toast})`,
                         backgroundSize: "cover",
                         backgroundBlendMode: 'multiply',
+                        backgroundPosition: "center top",
                         color: 'white'
                     }}  
                 >Collection
@@ -87,6 +88,7 @@ export default function Navbar() {
                         backgroundImage: `url(${phillipines})`,
                         backgroundSize: "cover",
                         backgroundBlendMode: 'multiply',
+                        backgroundPosition: "center center",
                         color: 'white'
                         
                     }}  
@@ -101,6 +103,7 @@ export default function Navbar() {
                         //top: "231.58px"
                         backgroundColor: "#918E9B",
                         backgroundImage: `url(${hold})`,
+                        backgroundPosition: "center center",
                         backgroundSize: "cover",
                         backgroundBlendMode: 'multiply',
                         color: 'white'
@@ -119,6 +122,7 @@ export default function Navbar() {
                         backgroundImage: `url(${bridge})`,
                         backgroundSize: "cover",
                         backgroundBlendMode: 'multiply',
+                        backgroundPosition: "center center",
                         color: 'white'
                     }}  
                 >Collection

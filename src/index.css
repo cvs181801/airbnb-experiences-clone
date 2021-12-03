@@ -2,7 +2,7 @@
 
 :root {
   --grey: #918E9B;
-  --light-grey: #cfced1;
+  --light-grey: #efecf3;
 }
 
 * {
@@ -41,7 +41,7 @@ nav {
   overflow-x: scroll;
   height: 30em;
   display: flex;
-  padding: 9em auto 5em auto;
+  padding: 3em auto 1em auto;
   background-color: var(--light-grey);
   justify-content: left;
   align-items: center;
@@ -56,13 +56,13 @@ nav {
 }
 
 .thumbnail {
-  padding: 2em 35em 10em 7em;
+  padding: 2em 35em 10em 2em;
   /* position: absolute; 
   width: 72.31px;
   height: 97.02px; */
   font-size: .6rem;
-  height: 30em;
-  width: 40em;
+  height: 40em;
+  width: 60em;
   margin: 0 .5em 0 .5em;
   border-radius: 13px;
   text-align: left;
@@ -166,6 +166,7 @@ nav {
 
   nav {
     background-color: white;
+    padding: 2em auto .5em auto;
   }
 
   .featuredContainer {
@@ -182,7 +183,7 @@ nav {
   }
 
    .thumbnail {
-    width: 40em;
-    height: 30em;
+    width: 55em;
+    height: 35em;
   } 
 }
