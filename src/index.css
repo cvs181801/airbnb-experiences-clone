@@ -156,8 +156,35 @@ nav {
 .footer {
   padding: 2.5em 2.2em 1em 2.2em;
   background-color: var(--light-grey);
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-height: 40em;
+  line-height: 2rem;
+  font-size: .9rem;
+ 
+}
+
+.footer__container {
   display: flex;
-  
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__container > * {
+  margin: 0 1em 0 1em;
+  height: 20em;
+  width: 20em;
+}
+
+#footer-header {
+  font-weight: 900;
+}
+
+.line {
+  width: 100%;
 }
 
 @media(min-width: 800px) {
