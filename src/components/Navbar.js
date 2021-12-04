@@ -48,7 +48,7 @@ export default function Navbar() {
                 </div>
 
                 <div
-                    className="thumbnail__inner" 
+                    className="thumbnail" 
                     style={{
                         //left: "77px",
                         //top: "144.81px"
@@ -63,7 +63,7 @@ export default function Navbar() {
                 </div>
 
                 <div
-                    className="thumbnail__inner" 
+                    className="thumbnail" 
                     style={{
                         //left: "157.75px",
                         //top: "175.54px"
@@ -80,7 +80,7 @@ export default function Navbar() {
 
                 <div
 
-                    className="thumbnail__inner" 
+                    className="thumbnail" 
                     style={{
                         //left: "238.5px",
                         //top: "126.13px"
@@ -97,7 +97,7 @@ export default function Navbar() {
                 </div>
 
                 <div
-                    className="thumbnail__inner" 
+                    className="thumbnail" 
                     style={{
                         //left: "238.5px",
                         //top: "231.58px"

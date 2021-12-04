@@ -41,7 +41,7 @@ nav {
   overflow-x: scroll;
   height: 30em;
   display: flex;
-  padding: 2.5em 2.5em 1em 2.5em;
+  padding: 2.5em 2.2em 1em 2.2em;
   background-color: var(--light-grey);
   justify-content: left;
   align-items: center;
@@ -52,26 +52,11 @@ nav {
   position: absolute;
   width: 82.02px;
   height: 25.35px;
-  left: 30px;
+  left: 2.5em;/*30px;*/
   top: 22px;
 }
 
 .thumbnail {
-  padding: 2em 35em 10em 2em;
-  /* position: absolute; 
-  width: 72.31px;
-  height: 97.02px; */
-  font-size: .6rem;
-  height: 40em;
-  width: 60em;
-  margin: 0 auto 0 auto;
-  border-radius: 13px;
-  text-align: left;
-  /*transition: transform 250ms;*/
-  box-shadow: inset 4em 4em 150px black; 
-}
-
-.thumbnail__inner {
   padding: 2em 35em 10em 2em;
   /* position: absolute; 
   width: 72.31px;
