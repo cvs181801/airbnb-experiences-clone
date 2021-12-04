@@ -1,9 +1,11 @@
+import React, { useState, useEffect } from "react"
 import './App.css';
 import './index.css';
 import Navbar from './components/Navbar';
 import Featured from './components/Featured.js'
 import cardsData from './components/cardsData'
 import Footer from './components/Footer.js'
+import Toggler from './components/Toggler.js'
 
 
 const featuredCards = cardsData.map(card => {
@@ -29,6 +31,7 @@ function App() {
       </div>
         <div className="featuredContainer">
           {featuredCards}
+          <Toggler/>
       </div>
       <Footer/>
     </div>
