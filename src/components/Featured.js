@@ -1,5 +1,6 @@
-import React from 'react'
+import React, {useState} from 'react'
 import star from './star.png'
+import Toggler from './Toggler.js'
 
 export default function Featured(props) {
     console.log(props)
@@ -7,12 +8,23 @@ export default function Featured(props) {
         <div
         className="featuredCard"
         >
-            <img
+            
+            {/* <img
                 src={props.src}
                 alt={props.alt}
                 className="featuredImg"
             >
-            </img>
+            </img> */}
+
+            <div
+                className="featuredImg"
+                style={{
+                    backgroundColor: "#918E9B",
+                    backgroundImage: `url(${props.src})`,
+                    backgroundSize: "cover"}}
+            > <Toggler/>
+            
+            </div>
 
             <img
                 src={star}

@@ -14,6 +14,7 @@ export default function Toggler() {
         <div>
             <p
                 onClick={handleClick}
+                className="toggler"
             >{TogglerValue ? "❤️" : "♡"}</p>
         </div>
     )

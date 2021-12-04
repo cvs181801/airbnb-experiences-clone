@@ -1,6 +1,4 @@
 import featuredSwim from './image_12.png'
-import featuredWedding from './wedding-photography 1.png'
-import featuredBike from './mountain-bike 1.png'
 import featuredYoga from './yoga.jpeg'
 import featuredVenice from './venice.jpeg'
 import featuredEiffel from './eiffeltower.jpeg'

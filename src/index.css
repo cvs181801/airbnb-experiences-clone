@@ -143,6 +143,13 @@ nav {
   width: 100%;
   height: 235px;
   border-radius: 9px;
+  align-items: left;
+}
+
+.toggler {
+  padding: .3em;
+  color: white;
+  
 }
 
 .grey {
