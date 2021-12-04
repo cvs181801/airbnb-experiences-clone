@@ -40,7 +40,7 @@ export default function Navbar() {
                         backgroundColor: "#918E9B",
                         backgroundImage: `url(${bake})`,
                         backgroundSize: "cover",
-                        backgroundBlendMode: 'multiply',
+                        //backgroundBlendMode: 'multiply',
                         color: 'white'
                     }}  
                 > Collection
@@ -55,7 +55,7 @@ export default function Navbar() {
                         backgroundColor: "#918E9B",
                         backgroundImage: `url(${andes})`,
                         backgroundSize: "cover",
-                        backgroundBlendMode: 'multiply',
+                        //backgroundBlendMode: 'multiply',
                         color: 'white'
                     }}  
                 >Collection
@@ -70,7 +70,7 @@ export default function Navbar() {
                         backgroundColor: "#918E9B",
                         backgroundImage: `url(${toast})`,
                         backgroundSize: "cover",
-                        backgroundBlendMode: 'multiply',
+                        //backgroundBlendMode: 'multiply',
                         backgroundPosition: "center top",
                         color: 'white'
                     }}  
@@ -87,7 +87,7 @@ export default function Navbar() {
                         backgroundColor: "#918E9B",
                         backgroundImage: `url(${phillipines})`,
                         backgroundSize: "cover",
-                        backgroundBlendMode: 'multiply',
+                        //backgroundBlendMode: 'multiply',
                         backgroundPosition: "center center",
                         color: 'white'
                         
@@ -105,7 +105,7 @@ export default function Navbar() {
                         backgroundImage: `url(${hold})`,
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
-                        backgroundBlendMode: 'multiply',
+                        //backgroundBlendMode: 'multiply',
                         color: 'white'
                     }}  
                 >Collection
@@ -121,7 +121,7 @@ export default function Navbar() {
                         backgroundColor: "#918E9B",
                         backgroundImage: `url(${bridge})`,
                         backgroundSize: "cover",
-                        backgroundBlendMode: 'multiply',
+                        //backgroundBlendMode: 'multiply',
                         backgroundPosition: "center center",
                         color: 'white'
                     }}  

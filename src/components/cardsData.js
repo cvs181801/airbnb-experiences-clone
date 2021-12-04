@@ -25,7 +25,7 @@ const cardsData = [
         src: featuredSwim,
         alt: "featured Air BnB Experiences Swim",
         rating: "5.0",
-        numOfRatings: "(6)",
+        numOfRatings: "(976)",
         country: "USA",
         summary: "Life Lessons with Katie Zaferes",
         startingPrice: "From $136"
@@ -45,7 +45,7 @@ const cardsData = [
         src: biking,
         alt: "featured Air BnB Experiences Bike",
         rating: "4.8",
-        numOfRatings: "(2)",
+        numOfRatings: "(594)",
         country: "USA",
         summary: "Mountain biking 101",
         startingPrice: "From $50"
@@ -55,7 +55,7 @@ const cardsData = [
         src: featuredYoga,
         alt: "featured Air BnB Experiences Yoga",
         rating: "4.9",
-        numOfRatings: "(22)",
+        numOfRatings: "(1,156)",
         country: "Australia",
         summary: "Yoga with Sari",
         startingPrice: "From $20"
@@ -65,7 +65,7 @@ const cardsData = [
         src: featuredVenice,
         alt: "featured Air BnB Experiences Venice in Venice",
         rating: "5",
-        numOfRatings: "(249)",
+        numOfRatings: "(2,291)",
         country: "Italy",
         summary: "Virtual gondola ride",
         startingPrice: "From $17"
@@ -75,7 +75,7 @@ const cardsData = [
         src: featuredEiffel,
         alt: "featured Air BnB Experiences Eiffel Tower",
         rating: "3.5",
-        numOfRatings: "(81)",
+        numOfRatings: "(901)",
         country: "France",
         summary: "La Tour Eiffel holiday lights tour",
         startingPrice: "From $20"
@@ -85,7 +85,7 @@ const cardsData = [
         src: featuredArizona,
         alt: "featured Air BnB Experiences Arizona",
         rating: "4.4",
-        numOfRatings: "(9)",
+        numOfRatings: "(803)",
         country: "USA",
         summary: "Plan your next trip to Arizona",
         startingPrice: "From $15"
@@ -95,7 +95,7 @@ const cardsData = [
         src: featuredCalgary,
         alt: "featured Air BnB Experiences Calgary",
         rating: "4",
-        numOfRatings: "(2)",
+        numOfRatings: "(45)",
         country: "Canada",
         summary: "Plan your next trip to Calgary",
         startingPrice: "From $22"
@@ -105,7 +105,7 @@ const cardsData = [
         src: featuredCapture,
         alt: "featured Air BnB Experiences Capture",
         rating: "3.9",
-        numOfRatings: "(11)",
+        numOfRatings: "(2,456)",
         country: "China",
         summary: "Learn how to capture a crisp image of the night sky with Xian",
         startingPrice: "From $99"
@@ -115,7 +115,7 @@ const cardsData = [
         src: featuredIndia,
         alt: "featured Air BnB Experiences India",
         rating: "5.0",
-        numOfRatings: "(32)",
+        numOfRatings: "(1,952)",
         country: "India",
         summary: "Balloon ride at sunrise in Delhi",
         startingPrice: "From $9"
@@ -125,7 +125,7 @@ const cardsData = [
         src: featuredLondon,
         alt: "featured Air BnB Experiences London",
         rating: "4.0",
-        numOfRatings: "(19)",
+        numOfRatings: "(270)",
         country: "Britain",
         summary: "Plan your next trip to London with Lara",
         startingPrice: "From $45"
@@ -135,7 +135,7 @@ const cardsData = [
         src: featuredPaint,
         alt: "featured Air BnB Experiences Paint",
         rating: "5.0",
-        numOfRatings: "(29)",
+        numOfRatings: "(575)",
         country: "Italy",
         summary: "Learn to paint with Italian Painter Luigi",
         startingPrice: "From $89"
@@ -145,7 +145,7 @@ const cardsData = [
         src: featuredPisa,
         alt: "featured Air BnB Experiences Pisa",
         rating: "3.3",
-        numOfRatings: "(9)",
+        numOfRatings: "(255)",
         country: "Italy",
         summary: "Plan your next trip to Pisa",
         startingPrice: "From $13"
@@ -155,7 +155,7 @@ const cardsData = [
         src: featuredSurf,
         alt: "featured Air BnB Experiences Surf",
         rating: "4.2",
-        numOfRatings: "(3)",
+        numOfRatings: "(560)",
         country: "USA",
         summary: "Learn to surf with Alan",
         startingPrice: "From $60"
@@ -165,7 +165,7 @@ const cardsData = [
         src: featuredTajmahal,
         alt: "featured Air BnB Experiences Taj Mahal",
         rating: "5.0",
-        numOfRatings: "(71)",
+        numOfRatings: "(2,752)",
         country: "India",
         summary: "Learn the history of the Taj Mahal",
         startingPrice: "From $19"
@@ -175,7 +175,7 @@ const cardsData = [
         src: featuredTropical,
         alt: "featured Air BnB Experiences Tropical",
         rating: "3.0",
-        numOfRatings: "(5)",
+        numOfRatings: "(884)",
         country: "Spain",
         summary: "Plan your next tropical getaway in Ibiza",
         startingPrice: "From $15"
@@ -185,7 +185,7 @@ const cardsData = [
         src: featuredWindchime,
         alt: "featured Air BnB Experiences Windchime",
         rating: "3.9",
-        numOfRatings: "(16)",
+        numOfRatings: "(479)",
         country: "Japan",
         summary: "Learn to build a windchime with Kyoko",
         startingPrice: "From $19"
@@ -195,7 +195,7 @@ const cardsData = [
         src: featuredSpain,
         alt: "featured Air BnB Experiences Spain",
         rating: "5",
-        numOfRatings: "(31)",
+        numOfRatings: "(1,385)",
         country: "Spain",
         summary: "Learn to cook traditional Spanish dishes with Raphael",
         startingPrice: "From $18"

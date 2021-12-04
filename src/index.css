@@ -67,6 +67,7 @@ nav {
   border-radius: 13px;
   text-align: left;
   /*transition: transform 250ms;*/
+  box-shadow: inset 4em 4em 150px black; 
 }
 
 .nav__text {
@@ -180,6 +181,10 @@ nav {
 
   .featuredCard {
     width: 15em;
+  }
+
+  .featuredImg {
+    height: 335px;
   }
 
    .thumbnail {
