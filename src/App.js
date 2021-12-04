@@ -3,6 +3,7 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Featured from './components/Featured.js'
 import cardsData from './components/cardsData'
+import Footer from './components/Footer.js'
 
 
 const featuredCards = cardsData.map(card => {
@@ -29,6 +30,7 @@ function App() {
         <div className="featuredContainer">
           {featuredCards}
       </div>
+      <Footer/>
     </div>
     
   );

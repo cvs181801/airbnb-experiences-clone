@@ -133,7 +133,6 @@ nav {
   /* width: 176px;
   height: 235px; */
   width: 12em;
- 
   border-radius: 9px;
   text-align: left;
   margin: 0 auto 2em auto;
@@ -152,6 +151,13 @@ nav {
 
 .strong {
   font-weight: 700;
+}
+
+.footer {
+  padding: 2.5em 2.2em 1em 2.2em;
+  background-color: var(--light-grey);
+  display: flex;
+  
 }
 
 @media(min-width: 800px) {
