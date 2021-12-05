@@ -8,14 +8,7 @@ export default function Featured(props) {
         <div
         className="featuredCard"
         >
-            
-            {/* <img
-                src={props.src}
-                alt={props.alt}
-                className="featuredImg"
-            >
-            </img> */}
-
+        
             <div
                 className="featuredImg"
                 style={{

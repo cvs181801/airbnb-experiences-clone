@@ -114,6 +114,7 @@ nav {
 
 .featuredContainer {
   position: relative;
+  width: 95%;
   /* left: 37px;
   top: 521px; */
   margin: 0 auto;
@@ -122,7 +123,6 @@ nav {
   /* grid-template-columns: 15em 15em;
   grid-template-rows: 1fr 1fr;
   grid-gap: .5em; */
-
 }
 
 /* .featuredContainer > * {
@@ -152,6 +152,7 @@ nav {
   color: white;
   width: 12em;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .grey {
@@ -167,8 +168,8 @@ nav {
   background-color: var(--light-grey);
   margin: 0 auto;
   text-align: center;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   max-height: 40em;
   line-height: 2rem;
   font-size: .9rem;
@@ -178,12 +179,12 @@ nav {
 .footer__container {
   display: flex;
   text-align: left;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
 }
 
 .footer__container > * {
-  margin: 0 1em 0 1em;
+  /*margin: 0 auto;*/
   height: 35em;
   width: 20em;
 }
@@ -222,7 +223,7 @@ nav {
   .featuredContainer {
     position: relative;
     margin: 0 auto;
-    width: 90%;
+    width: 99%;
     /* grid-template-columns: 15em 15em 15em 15em 15em;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: .7em; */
@@ -244,6 +245,17 @@ nav {
     width: 55em;
     height: 35em;
   } 
+
+  .title {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: .5em;
+  }
+
+  .footer__container {
+    width: 99vw;
+    margin: 0 auto;
+  }
 
   .footer__container > * {
     height: 20em;
