@@ -196,6 +196,12 @@ nav {
   width: 100%;
 }
 
+.favorites__title {
+  width: 100vw;
+  margin: 1em;
+  text-align: left;
+}
+
 @media(min-width: 800px) {
   .App {
     position: inline-block;

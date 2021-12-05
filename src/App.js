@@ -31,7 +31,11 @@ function App() {
       </div>
         <div className="featuredContainer">
           {featuredCards}
+          
+        
       </div>
+      {/* <br/>
+      <h1 className="favorites__title">My Favorites</h1>   */}
       <Footer/>
     </div>
     
