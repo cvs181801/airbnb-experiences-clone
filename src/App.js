@@ -22,10 +22,10 @@ const featuredCardsMore = cardsDataMore.map(card => {
 })
 
 function App() {
-  const [style, setStyle] = useState({overflowY: "hidden"})
+  const [style, setStyle] = useState({overflowY: "hidden", height: "20em"})
 
   function handleClick() {
-    setStyle({overflowY: "visible"})
+    setStyle({overflowY: "visible", height: "auto"})
   }
 
   return (
@@ -42,8 +42,12 @@ function App() {
       </p>
       </div>
 
-        <div className="featuredContainer">
-          {featuredCards} 
+        <div 
+          className="featuredContainer"
+          style ={style}
+        >
+        {featuredCards} 
+        {featuredCardsMore} 
         </div>
 
         <button 
@@ -51,13 +55,6 @@ function App() {
           onClick={handleClick}
         >Load more
         </button>
-
-        <div 
-          className="featuredContainerMore"
-          style ={style}
-        >
-          {featuredCardsMore} 
-        </div>
 
       {/* <br/>
       <h1 className="favorites__title">My Favorites</h1>   */}

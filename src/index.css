@@ -118,6 +118,7 @@ nav {
   position: relative;
   width: 95%;
   margin: 0 auto;
+  height: 20vh;
   display: flex;
   flex-wrap: wrap;
 }
@@ -190,8 +191,6 @@ nav {
   max-height: 40em;
   line-height: 2rem;
   font-size: .9rem;
-  border: 1px solid hotpink;
- 
 }
 
 .footer__container {
