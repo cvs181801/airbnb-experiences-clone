@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import star from './star.png'
 import Toggler from './Toggler.js'
 

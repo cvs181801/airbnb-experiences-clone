@@ -4,11 +4,18 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Featured from './components/Featured.js'
 import cardsData from './components/cardsData'
+import cardsDataMore from './components/cardsDataMore'
 import Footer from './components/Footer.js'
 import Toggler from './components/Toggler.js'
 
 
 const featuredCards = cardsData.map(card => {
+  return <Featured key={card.id} src={card.src} alt={card.alt} rating={card.rating} numOfRatings={card.numOfRatings} 
+  country={card.country} summary ={card.summary} startingPrice={card.startingPrice}/>
+  
+})
+
+const featuredCardsMore = cardsDataMore.map(card => {
   return <Featured key={card.id} src={card.src} alt={card.alt} rating={card.rating} numOfRatings={card.numOfRatings} 
   country={card.country} summary ={card.summary} startingPrice={card.startingPrice}/>
 })
@@ -30,10 +37,13 @@ function App() {
       </p>
       </div>
         <div className="featuredContainer">
-          {featuredCards}
-          
-        
-      </div>
+          {featuredCards} 
+        </div>
+
+        <div className="featuredContainerMore">
+          {featuredCardsMore} 
+        </div>
+
       {/* <br/>
       <h1 className="favorites__title">My Favorites</h1>   */}
       <Footer/>

@@ -122,6 +122,8 @@ nav {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  /* height: 30em;
+  overflow: hidden; */
   /* grid-template-columns: 15em 15em;
   grid-template-rows: 1fr 1fr;
   grid-gap: .5em; */
@@ -231,6 +233,7 @@ nav {
     position: relative;
     margin: 0 auto;
     width: 92%;
+    
   }
 
   .featuredCard {
