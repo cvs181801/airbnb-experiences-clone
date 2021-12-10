@@ -22,11 +22,14 @@ const featuredCardsMore = cardsDataMore.map(card => {
 })
 
 function App() {
-  const [style, setStyle] = useState({overflowY: "hidden", height: "20em"})
+  const [style, setStyle] = useState({overflowY: "hidden"})
+  const [display, setDisplay] = useState({display: "inline-block"})
 
-  function handleClick() {
-    setStyle({overflowY: "visible", height: "auto"})
-  }
+function handleClick() {
+  setStyle({overflowY: "visible", height: "auto"});
+  setDisplay({display: "none"})
+}
+
 
   return (
     <div className="App">
@@ -53,6 +56,7 @@ function App() {
         <button 
           class="moreBtn"
           onClick={handleClick}
+          style={display}
         >Load more
         </button>
 

@@ -118,7 +118,7 @@ nav {
   position: relative;
   width: 95%;
   margin: 0 auto;
-  height: 20vh;
+  height: 24em;
   display: flex;
   flex-wrap: wrap;
 }
@@ -246,6 +246,7 @@ nav {
     position: relative;
     margin: 0 auto;
     width: 92%;
+    height: 29em;
     
   }
 
