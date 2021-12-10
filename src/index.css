@@ -198,12 +198,14 @@ nav {
   text-align: left;
   align-items: left;
   justify-content: left;
+  
 }
 
 .footer__container > * {
   /*margin: 0 auto;*/
   height: 35em;
   width: 20em;
+  padding: .3em;
 }
 
 #footer-header {
@@ -247,7 +249,6 @@ nav {
     margin: 0 auto;
     width: 92%;
     height: 29em;
-    
   }
 
   .featuredCard {

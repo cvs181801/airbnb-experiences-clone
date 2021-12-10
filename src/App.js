@@ -30,7 +30,6 @@ function handleClick() {
   setDisplay({display: "none"})
 }
 
-
   return (
     <div className="App">
       
