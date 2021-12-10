@@ -21,13 +21,13 @@ const featuredCardsMore = cardsDataMore.map(card => {
   country={card.country} summary ={card.summary} startingPrice={card.startingPrice}/>
 })
 
-function handleClick() {
-  console.log("clocked!!!")
-}
-
 function App() {
   const [style, setStyle] = useState({overflowY: "hidden"})
-  
+
+  function handleClick() {
+    setStyle({overflowY: "visible"})
+  }
+
   return (
     <div className="App">
       
@@ -41,13 +41,16 @@ function App() {
       >Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
       </p>
       </div>
+
         <div className="featuredContainer">
           {featuredCards} 
         </div>
 
-        <button class="moreBtn"
+        <button 
+          class="moreBtn"
           onClick={handleClick}
-        >Load more</button>
+        >Load more
+        </button>
 
         <div 
           className="featuredContainerMore"
