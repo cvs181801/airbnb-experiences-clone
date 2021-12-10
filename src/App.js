@@ -9,6 +9,7 @@ import Footer from './components/Footer.js'
 import Toggler from './components/Toggler.js'
 
 
+
 const featuredCards = cardsData.map(card => {
   return <Featured key={card.id} src={card.src} alt={card.alt} rating={card.rating} numOfRatings={card.numOfRatings} 
   country={card.country} summary ={card.summary} startingPrice={card.startingPrice}/>
@@ -20,9 +21,13 @@ const featuredCardsMore = cardsDataMore.map(card => {
   country={card.country} summary ={card.summary} startingPrice={card.startingPrice}/>
 })
 
-console.log(featuredCards)
+function handleClick() {
+  console.log("clocked!!!")
+}
 
 function App() {
+  const [style, setStyle] = useState({overflowY: "hidden"})
+  
   return (
     <div className="App">
       
@@ -40,7 +45,14 @@ function App() {
           {featuredCards} 
         </div>
 
-        <div className="featuredContainerMore">
+        <button class="moreBtn"
+          onClick={handleClick}
+        >Load more</button>
+
+        <div 
+          className="featuredContainerMore"
+          style ={style}
+        >
           {featuredCardsMore} 
         </div>
 

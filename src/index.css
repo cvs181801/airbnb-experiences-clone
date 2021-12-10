@@ -117,21 +117,35 @@ nav {
 .featuredContainer {
   position: relative;
   width: 95%;
-  /* left: 37px;
-  top: 521px; */
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  /* height: 30em;
-  overflow: hidden; */
-  /* grid-template-columns: 15em 15em;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: .5em; */
 }
 
-/* .featuredContainer > * {
-  flex: 1 1 10em;
-} */
+.featuredContainerMore {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 0em;
+  /* overflow-y: hidden; */
+}
+
+.moreBtn {
+  margin-bottom: .5em;
+  height: 3em;
+  width: 9em;
+  text-align: center;
+  align-items: center;
+  background: black;
+  color: white;
+  font-size: 1rem;
+  padding: 1em;
+  border-style: none;
+  border-radius: 13px;
+  letter-spacing: .08rem;
+}
 
 .featuredCard {
   /* width: 176px;
