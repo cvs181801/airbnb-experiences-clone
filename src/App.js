@@ -7,6 +7,7 @@ import cardsData from './components/cardsData'
 import cardsDataMore from './components/cardsDataMore'
 import Footer from './components/Footer.js'
 import Toggler from './components/Toggler.js'
+import FeaturedMore from './components/FeaturedMore'
 
 
 
@@ -17,17 +18,17 @@ const featuredCards = cardsData.map(card => {
 })
 
 const featuredCardsMore = cardsDataMore.map(card => {
-  return <Featured key={card.id} src={card.src} alt={card.alt} rating={card.rating} numOfRatings={card.numOfRatings} 
+  return <FeaturedMore key={card.id} src={card.src} alt={card.alt} rating={card.rating} numOfRatings={card.numOfRatings} 
   country={card.country} summary ={card.summary} startingPrice={card.startingPrice}/>
 })
 
 function App() {
-  const [style, setStyle] = useState({overflowY: "hidden"})
   const [display, setDisplay] = useState({display: "inline-block"})
+  const [cards, setCards] = useState('');
 
 function handleClick() {
-  setStyle({overflowY: "visible", height: "auto"});
   setDisplay({display: "none"})
+  setCards(featuredCardsMore)
 }
 
   return (
@@ -46,10 +47,10 @@ function handleClick() {
 
         <div 
           className="featuredContainer"
-          style ={style}
         >
         {featuredCards} 
-        {featuredCardsMore} 
+        {cards}
+        
         </div>
 
         <button 

@@ -118,18 +118,10 @@ nav {
   position: relative;
   width: 95%;
   margin: 0 auto;
-  height: 24em;
+  /* height: 24em; */
+  height: auto;
   display: flex;
   flex-wrap: wrap;
-}
-
-.featuredContainerMore {
-  position: relative;
-  width: 95%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  height: 0em;
 }
 
 .moreBtn {
@@ -248,7 +240,8 @@ nav {
     position: relative;
     margin: 0 auto;
     width: 92%;
-    height: 29em;
+    /* height: 29em; */
+    height: auto;
   }
 
   .featuredCard {
