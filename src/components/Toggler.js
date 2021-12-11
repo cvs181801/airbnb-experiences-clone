@@ -1,21 +1,13 @@
-import React, { useState } from "react"
+import React from "react"
 
-export default function Toggler() {
-    const [TogglerValue, setTogglerValue] = useState(false);
-
-    function handleClick(event) {
-        event.preventDefault();
-        console.log("clicked");
-        setTogglerValue(prevValue => !prevValue)
-        console.log(TogglerValue);
-    }
-
+export default function Toggler(props) {
+    console.log("toggler props :", props)
     return (
         <div>
             <p
-                onClick={handleClick}
+                onClick={props.handleClick}
                 className="toggler"
-            >{TogglerValue ? "❤️" : "♡"}</p>
+            >{props.TogglerValue ? "❤️" : "♡"}</p>
         </div>
     )
 }

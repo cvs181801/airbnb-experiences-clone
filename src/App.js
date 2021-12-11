@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import './App.css';
 import './index.css';
 import Navbar from './components/Navbar';
@@ -23,16 +23,18 @@ const featuredCardsMore = cardsDataMore.map(card => {
 function App() {
   const [display, setDisplay] = useState({display: "inline-block"})
   const [cards, setCards] = useState('');
-  const [emoji, setEmoji] = useState(false);
+  const [TogglerValue, setTogglerValue] = useState(false);
 
 function handleClick() {
   setDisplay({display: "none"})
   setCards(featuredCardsMore)
 }
 
-function handleClick2() {
-  console.log( 'clicked')
-  setEmoji(true)
+function handleToggler(event) {
+  event.preventDefault(); 
+  console.log("clicked");
+  setTogglerValue(prevValue => !prevValue)
+  console.log(TogglerValue);
 }
 
   return (
@@ -66,10 +68,7 @@ function handleClick2() {
 
       <br/>
       <h1 className="favorites__title">My favorites</h1>  
-      <Emoji 
-        isFilled={emoji}
-        onClick={handleClick2}
-      />
+      
       <Footer/>
     </div>
     

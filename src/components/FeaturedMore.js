@@ -4,6 +4,7 @@ import Toggler from './Toggler.js'
 import cardsDataMore from './cardsDataMore'
 
 export default function FeaturedMore(props) {
+    console.log("propsMore :", props)
     return (
             <div
             className="featuredCard"
@@ -15,7 +16,9 @@ export default function FeaturedMore(props) {
                         backgroundColor: "#918E9B",
                         backgroundImage: `url(${props.src})`,
                         backgroundSize: "cover"}}
-                > <Toggler/>
+                > <Toggler
+                       
+                />
                 
                 </div>
 
