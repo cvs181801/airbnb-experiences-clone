@@ -8,13 +8,11 @@ import cardsDataMore from './components/cardsDataMore'
 import Footer from './components/Footer.js'
 import Toggler from './components/Toggler.js'
 import FeaturedMore from './components/FeaturedMore'
-
-
+import Emoji from './components/Emoji'
 
 const featuredCards = cardsData.map(card => {
   return <Featured key={card.id} src={card.src} alt={card.alt} rating={card.rating} numOfRatings={card.numOfRatings} 
   country={card.country} summary ={card.summary} startingPrice={card.startingPrice}/>
-  
 })
 
 const featuredCardsMore = cardsDataMore.map(card => {
@@ -25,10 +23,16 @@ const featuredCardsMore = cardsDataMore.map(card => {
 function App() {
   const [display, setDisplay] = useState({display: "inline-block"})
   const [cards, setCards] = useState('');
+  const [emoji, setEmoji] = useState(false);
 
 function handleClick() {
   setDisplay({display: "none"})
   setCards(featuredCardsMore)
+}
+
+function handleClick2() {
+  console.log( 'clicked')
+  setEmoji(true)
 }
 
   return (
@@ -54,14 +58,18 @@ function handleClick() {
         </div>
 
         <button 
-          class="moreBtn"
+          className="moreBtn"
           onClick={handleClick}
           style={display}
         >Load more
         </button>
 
-      {/* <br/>
-      <h1 className="favorites__title">My Favorites</h1>   */}
+      <br/>
+      <h1 className="favorites__title">My favorites</h1>  
+      <Emoji 
+        isFilled={emoji}
+        onClick={handleClick2}
+      />
       <Footer/>
     </div>
     
