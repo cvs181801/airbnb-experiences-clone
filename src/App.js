@@ -6,9 +6,7 @@ import Featured from './components/Featured.js'
 import cardsData from './components/cardsData'
 import cardsDataMore from './components/cardsDataMore'
 import Footer from './components/Footer.js'
-import Toggler from './components/Toggler.js'
 import FeaturedMore from './components/FeaturedMore'
-import Emoji from './components/Emoji'
 
 const featuredCards = cardsData.map(card => {
   return <Featured key={card.id} src={card.src} alt={card.alt} rating={card.rating} numOfRatings={card.numOfRatings} 
@@ -32,7 +30,7 @@ function handleClick() {
 
 function handleToggler(event) {
   event.preventDefault(); 
-  console.log("clicked");
+  console.log("clicked/favorited!");
   setTogglerValue(prevValue => !prevValue)
   console.log(TogglerValue);
 }
@@ -68,7 +66,7 @@ function handleToggler(event) {
 
       <br/>
       <h1 className="favorites__title">My favorites</h1>  
-      
+      {/*the favorited cards will be added here*/}
       <Footer/>
     </div>
     

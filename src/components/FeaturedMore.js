@@ -16,9 +16,7 @@ export default function FeaturedMore(props) {
                         backgroundColor: "#918E9B",
                         backgroundImage: `url(${props.src})`,
                         backgroundSize: "cover"}}
-                > <Toggler
-                       
-                />
+                > <Toggler/>
                 
                 </div>
 
