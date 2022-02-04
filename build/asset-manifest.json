@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d343e0f.chunk.css",
+    "main.js": "/static/js/main.3b14fda8.chunk.js",
+    "main.js.map": "/static/js/main.3b14fda8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0af6c554.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0af6c554.js.map",
+    "static/js/2.5ea091b6.chunk.js": "/static/js/2.5ea091b6.chunk.js",
+    "static/js/2.5ea091b6.chunk.js.map": "/static/js/2.5ea091b6.chunk.js.map",
+    "static/js/3.eea355e6.chunk.js": "/static/js/3.eea355e6.chunk.js",
+    "static/js/3.eea355e6.chunk.js.map": "/static/js/3.eea355e6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0d343e0f.chunk.css.map": "/static/css/main.0d343e0f.chunk.css.map",
+    "static/js/2.5ea091b6.chunk.js.LICENSE.txt": "/static/js/2.5ea091b6.chunk.js.LICENSE.txt",
+    "static/media/eiffeltower.6fe5325a.jpeg": "/static/media/eiffeltower.6fe5325a.jpeg",
+    "static/media/image_12.5d736ac3.png": "/static/media/image_12.5d736ac3.png",
+    "static/media/img100.cf7702cd.png": "/static/media/img100.cf7702cd.png",
+    "static/media/img101.99aab358.png": "/static/media/img101.99aab358.png",
+    "static/media/img102.b8d92328.png": "/static/media/img102.b8d92328.png",
+    "static/media/img103.4db67a8f.png": "/static/media/img103.4db67a8f.png",
+    "static/media/img104.75362b80.png": "/static/media/img104.75362b80.png",
+    "static/media/img105.fd416d0b.png": "/static/media/img105.fd416d0b.png",
+    "static/media/img106.2a3b3aef.png": "/static/media/img106.2a3b3aef.png",
+    "static/media/img107.95acc454.png": "/static/media/img107.95acc454.png",
+    "static/media/img108.ffc800b6.png": "/static/media/img108.ffc800b6.png",
+    "static/media/mountain-bike 1.5791b5a2.png": "/static/media/mountain-bike 1.5791b5a2.png",
+    "static/media/venice.b38b1589.jpeg": "/static/media/venice.b38b1589.jpeg",
+    "static/media/wedding-photography 1.e5e7566d.png": "/static/media/wedding-photography 1.e5e7566d.png",
+    "static/media/yoga.f03762a8.jpeg": "/static/media/yoga.f03762a8.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0af6c554.js",
+    "static/js/2.5ea091b6.chunk.js",
+    "static/css/main.0d343e0f.chunk.css",
+    "static/js/main.3b14fda8.chunk.js"
+  ]
+}
