@@ -21,18 +21,11 @@ const featuredCardsMore = cardsDataMore.map(card => {
 function App() {
   const [display, setDisplay] = useState({display: "inline-block"})
   const [cards, setCards] = useState('');
-  const [TogglerValue, setTogglerValue] = useState(false);
+  
 
 function handleClick() {
   setDisplay({display: "none"})
   setCards(featuredCardsMore)
-}
-
-function handleToggler(event) {
-  event.preventDefault(); 
-  console.log("clicked/favorited!");
-  setTogglerValue(prevValue => !prevValue)
-  console.log(TogglerValue);
 }
 
   return (
@@ -64,8 +57,8 @@ function handleToggler(event) {
         >Load more
         </button>
 
-      <br/>
-      <h1 className="favorites__title">My favorites</h1>  
+      {/* <br/>
+      <h1 className="favorites__title">My favorites</h1>   */}
       {/*the favorited cards will be added here*/}
       <Footer/>
     </div>
