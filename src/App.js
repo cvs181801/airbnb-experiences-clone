@@ -1,24 +1,68 @@
-import logo from './logo.svg';
+import React, { useState } from "react"
 import './App.css';
+import './index.css';
+import Navbar from './components/Navbar';
+import Featured from './components/Featured.js'
+import cardsData from './components/cardsData'
+import cardsDataMore from './components/cardsDataMore'
+import Footer from './components/Footer.js'
+import FeaturedMore from './components/FeaturedMore'
+
+const featuredCards = cardsData.map(card => {
+  return <Featured key={card.id} src={card.src} alt={card.alt} rating={card.rating} numOfRatings={card.numOfRatings} 
+  country={card.country} summary ={card.summary} startingPrice={card.startingPrice}/>
+})
+
+const featuredCardsMore = cardsDataMore.map(card => {
+  return <FeaturedMore key={card.id} src={card.src} alt={card.alt} rating={card.rating} numOfRatings={card.numOfRatings} 
+  country={card.country} summary ={card.summary} startingPrice={card.startingPrice}/>
+})
 
 function App() {
+  const [display, setDisplay] = useState({display: "inline-block"})
+  const [cards, setCards] = useState('');
+  
+
+function handleClick() {
+  setDisplay({display: "none"})
+  setCards(featuredCardsMore)
+}
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      
+      <Navbar/>
+      <div
+        className="title"
+      >Online Experiences
+      
+      <p
+        className="title__description"
+      >Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
+      </p>
+      </div>
+
+        <div 
+          className="featuredContainer"
         >
-          Learn React
-        </a>
-      </header>
+        {featuredCards} 
+        {cards}
+        
+        </div>
+
+        <button 
+          className="moreBtn"
+          onClick={handleClick}
+          style={display}
+        >Load more
+        </button>
+
+      {/* <br/>
+      <h1 className="favorites__title">My favorites</h1>   */}
+      {/*the favorited cards will be added here*/}
+      <Footer/>
     </div>
+    
   );
 }
 
