@@ -1,5 +1,5 @@
 import React from 'react'
-import star from './star.png'
+import star from './images/star.png'
 import Toggler from './Toggler.js'
 
 export default function Featured(props) {

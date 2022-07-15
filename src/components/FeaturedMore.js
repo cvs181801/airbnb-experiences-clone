@@ -1,7 +1,7 @@
 import React from 'react'
-import star from './star.png'
+import star from './images/star.png'
 import Toggler from './Toggler.js'
-import cardsDataMore from './cardsDataMore'
+// import cardsDataMore from './cardsDataMore'
 
 export default function FeaturedMore(props) {
     console.log("propsMore :", props)
