@@ -12,4 +12,12 @@ test("should render heart emoji", ()=>{
     render(<Emoji/>)
     const heart = screen.getByTestId("anEmoji")
     expect(heart).toBeInTheDocument();
-})
+
+    
+});
+
+test('render matches snapshot', ()=>{
+    const component = renderer.create(<Emoji/>)
+    let tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+});

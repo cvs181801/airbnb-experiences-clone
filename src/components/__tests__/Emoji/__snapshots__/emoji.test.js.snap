@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render matches snapshot 1`] = `
+<div>
+  <h1
+    data-testid="anEmoji"
+  >
+    Not an emoji
+  </h1>
+</div>
+`;
