@@ -7,6 +7,7 @@ export default function Emoji(props) {
         <div>
             <h1
                 onClick={props.handleClick}
+                data-testid="anEmoji"
             >{anEmoji}</h1>
         </div>
     )
